@@ -50,8 +50,8 @@ int main()
     while(m>0)
     {
         m--;
-        ll req=x-ht;
-        ll z=min(req,inv);
+        ll need=x-ht;
+        ll z=min(need,inv);
         ht+=z;
         inv-=z;
         inv+=(ht);

@@ -51,7 +51,7 @@ int main()
  {
    int n;
    cin>>n;
-   int k=log2(n-1);
+   int k=floor(log2(n-1));
    int x=(1<<k);
    for(int i=x-1;i>=0;i--)
    cout<<i<<" ";

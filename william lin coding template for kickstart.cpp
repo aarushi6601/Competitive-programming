@@ -11,6 +11,7 @@ using namespace std;
 #define ll long long
 #define si(x)	scanf("%d",&x)
 #define sl(x)	scanf("%lld",&x)
+#define PI 3.141592653589793238462
 #define ss(s)	scanf("%s",s)
 #define pi(x)	printf("%d\n",x)
 #define pl(x)	printf("%lld\n",x)
